@@ -7,7 +7,6 @@ c = 1e8
 mu0 = 4*np.pi*1e-7
 eps0 = 1 / (mu0 * c ** 2)
 
-
 Nz = 400
 dz = 1e-3
 

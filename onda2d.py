@@ -31,7 +31,7 @@ for step in range(200):
 
 X, Y = np.meshgrid(range(N), range(N))
 
-plt.imshow(u, cmap = 'viridis')
+plt.imshow(u.T, cmap = 'viridis')
 plt.colorbar()
 plt.title("Membrana vibrante")
 plt.show()
